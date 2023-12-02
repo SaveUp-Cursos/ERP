@@ -1,0 +1,37 @@
+ /* Estilos globais para o corpo da página */
+        body {
+            font-family: Arial, sans-serif;  /* Define a fonte para todo o corpo do documento */
+            margin: 0;  /* Remove as margens padrão do corpo do documento */
+            padding: 0;  /* Remove o preenchimento padrão do corpo do documento */
+            box-sizing: border-box;  /* Garante que as bordas e o preenchimento não afetem a largura e altura reais dos elementos */
+        }
+
+        /* Estilos para o cabeçalho e rodapé */
+        header, footer {
+            background-color: #333;  /* Cor de fundo do cabeçalho e rodapé */
+            color: white;  /* Cor do texto no cabeçalho e rodapé */
+            text-align: center;  /* Centraliza o texto no cabeçalho e rodapé */
+            padding: 10px;  /* Adiciona preenchimento interno ao cabeçalho e rodapé */
+        }
+
+        /* Estilos para a navegação */
+        nav {
+            background-color: #f2f2f2;  /* Cor de fundo da barra de navegação */
+            padding: 10px;  /* Adiciona preenchimento interno à barra de navegação */
+        }
+
+        /* Estilos para a seção principal */
+        section {
+            margin: 10px;  /* Adiciona margem externa à seção principal */
+            padding: 20px;  /* Adiciona preenchimento interno à seção principal */
+            background-color: #e6e6e6;  /* Cor de fundo da seção principal */
+        }
+
+        /* Estilos para telas menores que 600 pixels de largura */
+        @media only screen and (max-width: 600px) {
+            section {
+                margin: 5px;  /* Reduz a margem externa da seção principal em telas menores */
+                padding: 10px;  /* Reduz o preenchimento interno da seção principal em telas menores */
+            }
+        }
+        
