@@ -42,3 +42,5 @@ def run(server_class=HTTPServer, handler_class=MyRequestHandler, port=8000):
     httpd = server_class(server_address, handler_class)
     print(f'Starting server on port {port}')
     httpd.serve_forever()
+
+    # Junior Grecco
